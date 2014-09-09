@@ -2,7 +2,8 @@ var http = require('http'),
 	fs = require('fs'),
 	path = require('path'),
 	mime = require('mime'),
-	cache = {};					//cache是用来缓存文件内容的对象
+	cache = {},					//cache是用来缓存文件内容的对象
+	chatServer = require('./lib/chat_server');
 
 function send404(res) {
 	res.writeHead(404, {'Content-Type' : 'text/plain'});
@@ -52,3 +53,5 @@ var server = http.createServer(function (req, res) {
 server.listen(3000, function () {
 	console.log('Server listening on port 3000.');
 });
+
+chatServer.listen(server);
