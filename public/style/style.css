@@ -1,0 +1,22 @@
+body {
+	padding:50px;
+	font:14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+	color:#00B7FF;
+}
+#content {
+	width:800px;
+	margin:0 auto;
+}
+#room {
+	background:#DDD;
+	margin:0 0 1em;
+}
+#messages {
+	width:690px;
+	height:300px;
+	overflow:auto;
+	background:#EEE;
+	margin:0 10px 1em 0;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ChatRoom",
+  "version": "1.0.0",
+  "description": "Minimalist multiroom chat server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.mapbar.com/zhangsq/chatroom.git"
+  },
+  "keywords": [
+    "WebSocket",
+    "ChatRoom"
+  ],
+  "author": "zhangsq",
+  "devDependencies": {
+    "mime": "^1.2.11",
+    "socket.io": "^1.1.0"
+  }
+}
